@@ -62,6 +62,7 @@ public class EmployeeController {
 	}
 	
 	//build rest api for deleting employee  by ID
+	//http://url/api/employyes/1
 	@DeleteMapping("{id}")
 	public ResponseEntity<String> deleteEmployee(@PathVariable("id")long id){
 		
